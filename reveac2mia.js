@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const port = 3000;
 
 //configurando o acesso ao mongodb
-mongoose.connect('mongodb://127.0.0.1:27017/teste',{
+mongoose.connect('mongodb://127.0.0.1:27017/reveac2mia.js',{ // duvida no reveac2mia
     useNewUrlParser : true,
     useUnifiedTopology : true
     //serverSelectionTimeoutMS : 20000
